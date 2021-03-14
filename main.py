@@ -120,7 +120,7 @@ async def rounded_rectangle(rectangle, xy, corner_radius, fill=None, outline=Non
 @some_sticker_bot.on_message(filters.command("start"))
 async def start_handler(c: Client, m: Message):
     await m.reply_text(
-        "**Hi, I will make stickers based on the text you send me. \nJust send me any text or forward to start work** "
+        "**Hi,{} I will make stickers based on the text you send me. \nJust send me any text or forward to start work** "
         "**Created by** [LUSIFER](https://t.me/shado_hackers)",
         disable_web_page_preview=True
     )
@@ -129,10 +129,8 @@ async def start_handler(c: Client, m: Message):
 @some_sticker_bot.on_message(filters.command("help"))
 async def help_handler(c: Client, m: Message):
     await m.reply_text(
-        "Hi, I do not have much to say on help - I just create telegram stickers from the text messages you send me. "
-        "\nMy creator @eyaadh did a YouTube "
-        "[video](https://youtu.be/dVrA9hit4ks) on how he created me. The link for my source is on the video "
-        "description, you can fork the project and make a better version of me.",
+        "**Hi🙂, I will make stickers based on the text you send me. \nJust send me any text or forward to start work** "
+        "**Created by** [LUSIFER](https://t.me/shado_hackers)",
         disable_web_page_preview=True
     )
 
