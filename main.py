@@ -120,7 +120,7 @@ async def rounded_rectangle(rectangle, xy, corner_radius, fill=None, outline=Non
 @some_sticker_bot.on_message(filters.command("start"))
 async def start_handler(c: Client, m: Message):
     await m.reply_text(
-        "** Hi{message.from_user.first_name} I will make stickers based on the text you send me. \nJust send me any text or forward to start work. \n use /help for more info** "
+        "** Hi 👀I will make stickers based on the text you send me. \nJust send me any text or forward to start work. \n use /help for more info** "
         "**Created by** [LUSIFER](https://t.me/shado_hackers)",
         disable_web_page_preview=True
     )
@@ -130,7 +130,7 @@ async def start_handler(c: Client, m: Message):
 async def help_handler(c: Client, m: Message):
     await m.reply_text(
         "**Hi🙂, I will make stickers based on the text you send me. \nJust send me any text or forward to start work** "
-        "**Created by** [support group](https://t.me/OMG_info)",
+        "**Support group** [support group](https://t.me/OMG_info)",
         disable_web_page_preview=True
     )
 
